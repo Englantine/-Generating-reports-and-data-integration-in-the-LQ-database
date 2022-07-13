@@ -1,0 +1,213 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="33fa9dcd-04fe-46bc-a5e3-e375aa8739ab" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDLQ</ID>
+  <Name>GRIDDLQ</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20558" y="13441" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="griddlq_llojet" left="10500" top="3756" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_griddlq_llojet" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="griddlq_lulet" left="6000" top="1786" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_griddlq_lulet" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8700" top="3746" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="2100" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_griddlq_lulet_griddlq_llojet]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="10" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10500" y="4145" />
+              <point x="9750" y="4145" />
+              <point x="9750" y="4122" />
+              <point x="9000" y="4122" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>6000</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>1786</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="85119676-9da3-4a36-b637-aa2621cb0926">
+      <ID>Griddlq Llojet</ID>
+      <Name>Griddlq Llojet</Name>
+      <DimensionID>Griddlq Llojet</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7eab869a-5f34-4248-b1df-f7ac92f8e31e">
+          <AttributeID>ID Lloji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e01b4a25-5cb8-4713-bd0e-eb7a6b4f7fdc">
+          <AttributeID>Lloji</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4d570f7c-b90f-4b2a-a07e-4aee15139db4">
+      <ID>Griddlq Lulet</ID>
+      <Name>Griddlq Lulet</Name>
+      <DimensionID>Griddlq Lulet</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bda79f0c-6986-440c-b563-0aa718eb8ab2">
+          <AttributeID>ID Lule</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0f5c306e-658f-4cf3-813d-4ab64c9bd507">
+          <AttributeID>Emri</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fb539a95-eaf2-4848-979b-9e87d90abf75">
+          <AttributeID>Pershkrimi</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e9c144d-4116-4a2a-b288-04f4d6fe87c2">
+          <AttributeID>Cmimi</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b747228c-be51-483f-b60b-25f9c3798c10">
+          <AttributeID>Ngjyra</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2e8981de-3264-437c-9b04-c941b097f011">
+          <AttributeID>ID Lloji</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="11e2c954-5bf4-4b03-b1a6-0b72ddc1adf9">
+          <AttributeID>Lloji</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="0cdc67ab-59e2-40a6-80a1-fc7a32895fbf">
+      <ID>Griddlq Lulet</ID>
+      <Name>Griddlq Lulet</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3183911f-45bf-4e62-b7a4-7e3c4c744a3d">
+          <ID>Maximum Cmimi</ID>
+          <Name>Maximum Cmimi</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="345f0412-5652-4a1d-8d29-a2c52e91cfba">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9d025c36-3b40-4418-8751-168ade86c318">
+              <TableID>dbo_griddlq_lulet</TableID>
+              <ColumnID>Cmimi</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1ccd5f5c-bf89-4f0f-b7ca-06200c480397">
+          <CubeDimensionID>Griddlq Lulet</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="70bc26a6-6f4d-4ee1-a37b-585baeb1573d">
+              <AttributeID>ID Lule</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8a009cc7-cd19-4126-9479-6f27692c019f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3966c9f8-0e01-41fc-ae5e-544449f109f9">
+                    <TableID>dbo_griddlq_lulet</TableID>
+                    <ColumnID>ID_Lule</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cd04be30-f64f-4b60-88de-ba416f61a815">
+          <CubeDimensionID>Griddlq Llojet</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d4c629bf-2c4a-4e4b-864b-aa0863a9dcf4">
+              <AttributeID>ID Lloji</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2bb0f569-bf4c-4e9c-aeb0-0844c2cee212">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b2c60a63-590c-4af7-a110-d944b69c0597">
+                    <TableID>dbo_griddlq_lulet</TableID>
+                    <ColumnID>ID_Lloji</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="d1f32682-b171-429d-8b08-d03f3920ff7d">
+    <DataSourceViewID>GRIDDLQ</DataSourceViewID>
+  </Source>
+</Cube>

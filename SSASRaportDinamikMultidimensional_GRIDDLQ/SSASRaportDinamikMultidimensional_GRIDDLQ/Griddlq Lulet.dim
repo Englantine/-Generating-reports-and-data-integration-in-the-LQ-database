@@ -1,0 +1,202 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5d918a70-9827-4c3f-ac1f-d8b0397b5d78" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Griddlq Lulet</ID>
+  <Name>Griddlq Lulet</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="92931a5f-38cb-42f1-b2d3-ae9d4b03e8b5">
+    <DataSourceViewID>GRIDDLQ</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="9acff27d-5c55-4384-ab4c-49e8b01913b9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="9eada0d5-d5c2-423f-8856-085027453428">
+      <ID>ID Lule</ID>
+      <Name>ID Lule</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0319abd7-9928-4e0d-9cc8-7cf5372c8779">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42086f9d-18bb-42dc-9f44-2e29e463cc46">
+            <TableID>dbo_griddlq_lulet</TableID>
+            <ColumnID>ID_Lule</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f49b2086-8c52-4713-8c65-6d8b38d434d7">
+          <AttributeID>Emri</AttributeID>
+          <Name>Emri</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3fa5c427-bc1f-4631-b210-8351e36ad4cd">
+          <AttributeID>Pershkrimi</AttributeID>
+          <Name>Pershkrimi</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c0f73ba-a784-4431-8cfd-519faac54dc3">
+          <AttributeID>Cmimi</AttributeID>
+          <Name>Cmimi</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="88ebe864-db57-4289-9704-68653691a24b">
+          <AttributeID>Ngjyra</AttributeID>
+          <Name>Ngjyra</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b3b92406-ba16-460e-a132-fcdc1afb8441">
+          <AttributeID>ID Lloji</AttributeID>
+          <Name>ID Lloji</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="abb491d4-06a2-43ba-a57d-73d6c6a13607">
+      <ID>Emri</ID>
+      <Name>Emri</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a965754c-2556-476e-8e03-c2a67be456e3">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f00f7ae3-011f-4f36-9927-d25f0024c3f5">
+            <TableID>dbo_griddlq_lulet</TableID>
+            <ColumnID>Emri</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d706359c-8868-4699-839d-2db564670a27">
+      <ID>Pershkrimi</ID>
+      <Name>Pershkrimi</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="60ad5ffd-beec-449d-8384-818a5b0922ac">
+          <DataType>WChar</DataType>
+          <DataSize>200</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6f80f99-fec2-4ef3-a817-a81046fae129">
+            <TableID>dbo_griddlq_lulet</TableID>
+            <ColumnID>Pershkrimi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f9653cc3-1fc3-43ab-a248-e6a25c6eb4bf">
+      <ID>Cmimi</ID>
+      <Name>Cmimi</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fee672c2-3a8f-4b3a-8eef-1b60f8c7d0c8">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c63db0d1-4266-42c7-b0b8-efba0d05becc">
+            <TableID>dbo_griddlq_lulet</TableID>
+            <ColumnID>Cmimi</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2afc01cf-5d31-4963-8a6b-61529242f5c4">
+      <ID>Ngjyra</ID>
+      <Name>Ngjyra</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e0de9f2c-588e-4cc4-9f99-3e625a8fa028">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5e431d31-2dd3-40f9-8d65-b24442900b5e">
+            <TableID>dbo_griddlq_lulet</TableID>
+            <ColumnID>Ngjyra</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71caf038-893c-4aa7-a596-1c31089b8c17">
+      <ID>ID Lloji</ID>
+      <Name>ID Lloji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2ba7aae5-f260-4c75-83e2-6dc4ca2ddeca">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5cc092bd-cd2e-4958-9893-2199b97b3e55">
+            <TableID>dbo_griddlq_llojet</TableID>
+            <ColumnID>ID_Lloji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="99e41e59-e1dc-4ae2-9fbd-3a56909bdff4">
+          <AttributeID>Lloji</AttributeID>
+          <Name>Lloji</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="23c960a0-c979-41df-9025-5bb90f129281">
+      <ID>Lloji</ID>
+      <Name>Lloji</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4892dc98-a9cd-4d63-b94f-8690cd65b87d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ad35511-6bf4-4afc-8445-f9928b91e5e9">
+            <TableID>dbo_griddlq_llojet</TableID>
+            <ColumnID>Lloji</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1778
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "SSASRaportDinamikMultidimensional_GRIDDLQ", "SSASRaportDinamikMultidimensional_GRIDDLQ\SSASRaportDinamikMultidimensional_GRIDDLQ.dwproj", "{7947EE85-DA12-4413-A1E3-9D7655BF21D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7947EE85-DA12-4413-A1E3-9D7655BF21D5}.Development|Default.ActiveCfg = Development
+		{7947EE85-DA12-4413-A1E3-9D7655BF21D5}.Development|Default.Build.0 = Development
+		{7947EE85-DA12-4413-A1E3-9D7655BF21D5}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {819D12EA-80A9-45EE-9539-EF8A036912AB}
+	EndGlobalSection
+EndGlobal

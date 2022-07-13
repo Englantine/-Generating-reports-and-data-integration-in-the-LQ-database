@@ -1,0 +1,110 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f6310396-eb3c-49c3-88ff-6f076a686e75" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>GRIDDLQ</ID>
+  <Name>GRIDDLQ</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>GRIDDLQ</DataSourceID>
+  <Schema>
+    <xs:schema id="GRIDDLQ" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="GRIDDLQ" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="deaa0315-41db-4a33-911c-40b59466d7b9">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_griddlq_llojet" msprop:design-time-name="cb21bda1-e038-4757-aacc-4ca933e55b05" msprop:DbTableName="griddlq_llojet" msprop:FriendlyName="griddlq_llojet" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Lloji" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="0bfd1a45-ef1c-438b-9447-5c78b51dec53" msprop:DbColumnName="ID_Lloji" msprop:FriendlyName="ID_Lloji" type="xs:int" />
+                  <xs:element name="Lloji" msprop:design-time-name="49ab25f1-74a0-448b-a076-80c5a4fd38e5" msprop:DbColumnName="Lloji" msprop:FriendlyName="Lloji">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_griddlq_lulet" msprop:design-time-name="6ad82c01-f8c9-4a03-88b1-26c973abe95b" msprop:DbTableName="griddlq_lulet" msprop:FriendlyName="griddlq_lulet" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ID_Lule" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="13e53a60-da27-4c1a-9d66-cc14f2bb8ddf" msprop:DbColumnName="ID_Lule" msprop:FriendlyName="ID_Lule" type="xs:int" />
+                  <xs:element name="Emri" msprop:design-time-name="7684eb73-5816-4872-85fa-abde649828f8" msprop:DbColumnName="Emri" msprop:FriendlyName="Emri">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Pershkrimi" msprop:design-time-name="ca7a2ed2-c983-4f11-bc50-1fc18b3d7528" msprop:DbColumnName="Pershkrimi" msprop:FriendlyName="Pershkrimi">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Cmimi" msprop:design-time-name="77d24697-7154-47de-a094-6866635c14a4" msprop:DbColumnName="Cmimi" msprop:FriendlyName="Cmimi" type="xs:decimal" />
+                  <xs:element name="Ngjyra" msprop:design-time-name="f1c7be0c-a857-43fe-a846-76e0193bd2cf" msprop:DbColumnName="Ngjyra" msprop:FriendlyName="Ngjyra">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ID_Lloji" msprop:design-time-name="b7aca833-6580-4e04-825f-fc2a74b04d5c" msprop:DbColumnName="ID_Lloji" msprop:FriendlyName="ID_Lloji" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddlq_llojet" />
+          <xs:field xpath="ID_Lloji" />
+        </xs:unique>
+        <xs:unique name="dbo_griddlq_lulet_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_griddlq_lulet" />
+          <xs:field xpath="ID_Lule" />
+        </xs:unique>
+        <xs:keyref name="FK_griddlq_lulet_griddlq_llojet" refer="Constraint1">
+          <xs:selector xpath=".//dbo_griddlq_lulet" />
+          <xs:field xpath="ID_Lloji" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <GRIDDLQ xmlns="" />
+  </Schema>
+</DataSourceView>
